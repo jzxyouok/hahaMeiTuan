@@ -55,6 +55,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0443D1701BE47DB900222201 /* my */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = my;
+			sourceTree = "<group>";
+		};
+		0443D1711BE47DE300222201 /* more */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
+		0443D1721BE47E0A00222201 /* togetherBuy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = togetherBuy;
+			sourceTree = "<group>";
+		};
+		0443D1731BE47E7200222201 /* comeDoor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = comeDoor;
+			sourceTree = "<group>";
+		};
 		049DC4081BE47A61008D9A55 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +104,10 @@
 		049DC4131BE47A61008D9A55 /* 美团客户端 */ = {
 			isa = PBXGroup;
 			children = (
+				0443D1731BE47E7200222201 /* comeDoor */,
+				0443D1721BE47E0A00222201 /* togetherBuy */,
+				0443D1711BE47DE300222201 /* more */,
+				0443D1701BE47DB900222201 /* my */,
 				049DC4181BE47A62008D9A55 /* AppDelegate.h */,
 				049DC4191BE47A62008D9A55 /* AppDelegate.m */,
 				049DC41B1BE47A62008D9A55 /* Images.xcassets */,
@@ -394,6 +426,7 @@
 				049DC4301BE47A62008D9A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		049DC4311BE47A62008D9A55 /* Build configuration list for PBXNativeTarget "美团客户端Tests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +435,7 @@
 				049DC4331BE47A62008D9A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
